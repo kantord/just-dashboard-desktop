@@ -1,5 +1,5 @@
 'use strict';
-const dashboard = require('just-dashboard')
+import * as dashboard from 'just-dashboard/dist/dashboard.js'
 const fs = require('fs')
 
 const render_dashboard = (data) =>
@@ -14,3 +14,7 @@ const input_file = argv[1]
 const file_contents = fs.readFileSync(input_file, {"encoding": "utf-8"})
 
 render_dashboard_yaml(file_contents)
+
+dashboard.d3.select("body")
+  .attr("id", "baseline")
+  .attr("class", "typeset")

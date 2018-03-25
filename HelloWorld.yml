@@ -1,9 +1,3 @@
 dashboard "Hello World":
   - h1 text: "Hello from just-dashboard"
-  - pie chart: {
-    "columns": [
-      ["foo", 3],
-      ["bar", 4],
-      ["baz", 2],
-    ]
-  }
+  - pie chart: file://./data.json

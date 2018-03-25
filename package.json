@@ -1,5 +1,5 @@
 {
-  "name": "electron-webpack-quick-start",
+  "name": "just-dashboard-desktop",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
-    "just-dashboard": "^0.9.0",
+    "just-dashboard": "^0.10.0",
     "source-map-support": "^0.5.4"
   },
   "devDependencies": {

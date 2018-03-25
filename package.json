@@ -1,12 +1,14 @@
 {
   "name": "just-dashboard-desktop",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
-    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "just-dashboard": "^0.10.0",
@@ -18,9 +20,15 @@
     "electron-webpack": "^1.13.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
-    "webpack": "^3.11.0"
+    "semantic-release": "^15.1.4",
+    "webpack": "^3.11.0",
+    "travis-deploy-once": "^4.4.1"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kantord/just-dashboard-desktop.git"
   }
 }

@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "just-dashboard": "^0.11.0",
-    "source-map-support": "^0.5.4"
+    "source-map-support": "^0.5.5"
   },
   "devDependencies": {
     "electron": "1.8.4",

@@ -22,7 +22,7 @@
     "sass-loader": "^6.0.7",
     "semantic-release": "^15.1.5",
     "webpack": "^3.11.0",
-    "travis-deploy-once": "^4.4.1"
+    "travis-deploy-once": "^5.0.0"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"

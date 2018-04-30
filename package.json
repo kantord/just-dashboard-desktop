@@ -20,7 +20,7 @@
     "electron-webpack": "^1.13.0",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
-    "semantic-release": "^15.1.5",
+    "semantic-release": "^15.1.8",
     "webpack": "^3.11.0",
     "travis-deploy-once": "^4.4.1"
   },

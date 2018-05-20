@@ -1,5 +1,5 @@
 'use strict';
-import * as dashboard from 'just-dashboard/dist/dashboard.js'
+import * as dashboard from 'just-dashboard/src/index.js'
 const fs = require('fs')
 
 

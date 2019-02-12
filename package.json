@@ -23,7 +23,7 @@
     "electron-builder": "^20.13.4",
     "electron-webpack": "^2.1.1",
     "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.1",
+    "sass-loader": "^7.1.0",
     "semantic-release": "^15.4.1",
     "travis-deploy-once": "^5.0.0",
     "webpack": "^4.8.3",

@@ -7,8 +7,7 @@
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
-    "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",

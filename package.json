@@ -8,7 +8,6 @@
     "dist": "yarn compile && electron-builder",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
     "travis-deploy-once": "travis-deploy-once",
-    "preinstall": "mkdir -p dist/linux-unpacked/ && touch dist/linux-unpacked/just-dashboard-desktop",
     "postinstall": "electron-webpack && electron-builder"
   },
   "dependencies": {

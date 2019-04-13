@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "electron": "4.0.1",
-    "electron-builder": "20.38.4",
+    "electron-builder": "20.39.0",
     "electron-webpack": "^2.6.2",
     "semantic-release": "^15.13.3",
     "webpack": "4.28.4"

@@ -8,11 +8,11 @@ node_js:
   - '9'
   - '8'
 install:
-  - yarn
+  - yarn --ignore-engines
 script:
   - yarn run dist
 after_success:
-  - yarn run travis-deploy-once "npm run semantic-release"
+  - yarn run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

@@ -21,7 +21,7 @@
     "electron-builder": "20.38.4",
     "electron-webpack": "^2.6.2",
     "semantic-release": "^15.13.3",
-    "webpack": "4.28.4"
+    "webpack": "4.30.0"
   },
   "bin": {
     "just-dashboard": "./dist/linux-unpacked/just-dashboard-desktop",

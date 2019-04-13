@@ -8,11 +8,11 @@ node_js:
   - '9'
   - '8'
 install:
-  - npm install
+  - yarn
 script:
-  - npm run dist
+  - yarn run dist
 after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
+  - yarn run travis-deploy-once "npm run semantic-release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

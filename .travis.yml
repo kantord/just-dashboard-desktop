@@ -6,13 +6,12 @@ notifications:
   email: false
 node_js:
   - '9'
-  - '8'
 install:
   - yarn --ignore-engines
 script:
   - NODE_OPTIONS="--max-old-space-size=4096" yarn run dist
 after_success:
-  - yarn run semantic-release
+  - NODE_OPTIONS="--max-old-space-size=4096" yarn run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

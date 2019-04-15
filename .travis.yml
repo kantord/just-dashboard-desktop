@@ -10,6 +10,8 @@ install:
   - yarn --ignore-engines
 script:
   - yarn --ignore-engines
+  - rm -rf dist
+  - git reset --hard
 after_success:
   - NODE_OPTIONS="--max-old-space-size=4096" yarn run semantic-release
 branches:

@@ -9,7 +9,7 @@ node_js:
 install:
   - yarn --ignore-engines
 script:
-  - NODE_OPTIONS="--max-old-space-size=4096" yarn run dist
+  - yarn --ignore-engines
 after_success:
   - NODE_OPTIONS="--max-old-space-size=4096" yarn run semantic-release
 branches:

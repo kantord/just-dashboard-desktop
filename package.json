@@ -11,7 +11,7 @@
     "postinstall": "electron-webpack && electron-builder"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.3",
+    "@babel/polyfill": "^7.4.4",
     "just-dashboard": "^0.14.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",

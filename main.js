@@ -14,6 +14,8 @@ function createMainWindow() {
     }
   });
 
+  window.setMenuBarVisibility(false);
+
   window.loadURL(
     formatUrl({
       pathname: path.join(__dirname, "index.html"),

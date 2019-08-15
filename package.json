@@ -3,29 +3,15 @@
   "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
-    "dev": "electron-webpack dev",
-    "compile": "electron-webpack",
-    "dist": "yarn compile && electron-builder",
-    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
-    "travis-deploy-once": "travis-deploy-once",
-    "postinstall": "electron-webpack && electron-builder"
+    "dev": "electron main.js"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.3",
-    "just-dashboard": "^0.14.1",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "source-map-support": "^0.5.12"
+    "electron": "^6.0.2",
+    "just-dashboard": "^0.14.2"
   },
-  "devDependencies": {
-    "electron": "4.1.4",
-    "electron-builder": "20.39.0",
-    "electron-webpack": "^2.6.2",
-    "semantic-release": "^15.13.3",
-    "webpack": "4.30.0"
-  },
+  "devDependencies": {},
   "bin": {
-    "just-dashboard": "./dist/linux-unpacked/just-dashboard-desktop",
-    "jd": "./dist/linux-unpacked/just-dashboard-desktop"
+    "just-dashboard": "./index.js",
+    "jd": "./index.js"
   }
 }

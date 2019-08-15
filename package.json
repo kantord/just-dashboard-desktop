@@ -6,8 +6,10 @@
     "dev": "electron main.js"
   },
   "dependencies": {
-    "electron": "^6.0.2",
     "just-dashboard": "^0.14.2"
+  },
+  "peerDependencies": {
+    "electron": "^6.0.2"
   },
   "devDependencies": {
     "semantic-release": "^15.13.21"

@@ -9,7 +9,9 @@
     "electron": "^6.0.2",
     "just-dashboard": "^0.14.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^15.13.21"
+  },
   "bin": {
     "just-dashboard": "./index.js",
     "jd": "./index.js"

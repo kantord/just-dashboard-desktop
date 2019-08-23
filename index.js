@@ -9,4 +9,4 @@ console.log(electron);
 const process = require("process");
 const input_file = process.argv[2];
 // spawn Electron
-const child = proc.spawn(electron, ["./main.js", input_file]);
+const child = proc.spawn(electron, [require.resolve("./main.js"), input_file]);

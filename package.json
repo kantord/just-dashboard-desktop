@@ -12,7 +12,7 @@
     "electron": "^6.0.2"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.21"
+    "semantic-release": "^17.2.1"
   },
   "bin": {
     "just-dashboard": "./index.js",
